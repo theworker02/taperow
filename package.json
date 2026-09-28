@@ -1,0 +1,29 @@
+{
+  "name": "@theworker02/taperow",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Tape filesystem row paths across POSIX and Windows conventions.",
+  "bin": {
+    "taperow": "src/cli.js"
+  },
+  "main": "./src/index.js",
+  "scripts": {
+    "test": "node --test"
+  },
+  "license": "MIT",
+  "engines": {
+    "node": ">=18"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/theworker02/taperow.git"
+  },
+  "homepage": "https://theworker02.github.io/taperow/",
+  "keywords": [
+    "tape",
+    "row",
+    "path",
+    "cli",
+    "toolkit"
+  ]
+}
